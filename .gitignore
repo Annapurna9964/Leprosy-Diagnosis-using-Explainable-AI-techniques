@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Flask instance folder
+instance/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads and dataset files
+static/uploads/*
+!static/uploads/.gitkeep
+# Include the trained model
+!model/leprosy_classifier.pkl
+!model/leprosy_classifier_meta.pkl
+dataset/*
+!dataset/.gitkeep
+test_samples/*
+!test_samples/.gitkeep
+test_results/*
+!test_results/.gitkeep
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb
